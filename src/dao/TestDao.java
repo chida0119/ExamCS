@@ -121,6 +121,7 @@ public class TestDao extends Dao {
 			test.setSchool(school);
 			test.setNo(rSet.getInt("t_no"));
 			test.setPoint(rSet.getInt("t_point"));
+			System.out.println(rSet.getInt("t_point"));
 
 			// リストに追加
 			list.add(test);
